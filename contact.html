@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>İletişim</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="./img/mercedes-favicon.svg" type="image/gif" sizes="16x16">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/swiperjs/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="base-nav">
+        <div class="container d-flex align-items-center">
+            <a href="index.html" class="nav-logo">
+                <img src="./img/logo.png" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="install-app-container">
+        <button id="install-app"><i class="fas fa-download"></i></button>
+    </div>
+    <nav class="navbar navbar-expand-lg second-nav ">
+        <div class="container w-100">
+            <button class="navbar-toggler align-items-center justify-content-center ml-auto" type="button"
+                data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><svg viewBox="0 0 100 80" width="30" height="30" fill="#fff">
+                        <rect width="100" height="10"></rect>
+                        <rect y="30" width="100" height="10"></rect>
+                        <rect y="60" width="100" height="10"></rect>
+                    </svg></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav w-100">
+                    <li class="nav-item active">
+                        <a href="about.html">Kite Mercedes Hakkında</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="sss.html">Sık Sorulan Sorular</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html">Rezervasyon ve İletişim</a>
+                    </li>
+                    <li class="nav-item ml-auto">
+                        <select>
+                            <option value="0">TR</option>
+                            <option value="1">EN</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="contact">
+        <div class="container">
+            <form class="form">
+                <h2>Rezervasyon ve iletişim Formu</h2>
+                <div class="form-items">
+                    <div class="form-item">
+                        <label>Adınız:*</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="form-item">
+                        <label>Soyadınız:*</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="form-item">
+                        <label>E-Posta Adresiniz:*</label>
+                        <input type="email" required>
+                    </div>
+                    <div class="form-item">
+                        <label>Cep Telefonu Numaranız:*</label>
+                        <input type="text" minlength="14" id="yourphone" required>
+                    </div>
+
+                </div>
+                <div class="form-item">
+                    <label>Mesajınız:*</label>
+                    <textarea cols="4" rows="4" required></textarea>
+                </div>
+                <p>KiteMercedes ve Bilge Öztürk tarafından, yukarıda yer alan iletişim bilgilerime ticari elektronik
+                    ileti gönderilmesini kabul ediyorum.</p>
+                <div class="accept d-flex align-items-center">
+                    <input type="checkbox" id="accept-input" required>
+                    <label for="accept-input">Onaylıyorum</label>
+                </div>
+                <input type="submit" class="u-button" value="Gönder">
+            </form>
+            <img src="./img/5.png" alt="">
+        </div>
+    </section>
+
+    <section class="contact-info-container">
+        <div class="container">
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d398.0983040263845!2d28.32927145815497!3d37.03873822843358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14bf9fbb71b6114d%3A0x8366ed744cf1e71e!2skitemercedes%20by%20Bilge%20%C3%96zt%C3%BCrk!5e0!3m2!1sen!2str!4v1624928195878!5m2!1sen!2str"
+                    width="550" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="contact-info">
+                <h2>İletişim Bilgilerimiz</h2>
+                <div class="info d-flex align-items-center">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="info-text">
+                        <p>Adres: </p>
+                        <h3>Akçapınar Kiteboard Sahili Akyaka, Ula/Muğla</h3>
+                    </div>
+                </div>
+                <div class="info d-flex align-items-center">
+                    <i class="far fa-envelope"></i>
+                    <div class="info-text">
+                        <p>E-Posta: </p>
+                        <h3>info@bilgeozturkkiteclub.com</h3>
+                    </div>
+                </div>
+                <div class="info d-flex align-items-center">
+                    <i class="fas fa-phone-alt"></i>
+                    <div class="info-text">
+                        <p>Telefon: </p>
+                        <h3>+90 542 268 54 83</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>KiteMercedes by Bilge Öztürk | Tüm Hakları Saklıdır. 2021</p>
+    </footer>
+
+    <script src="./js/bootstrap/jquery-3.3.1.slim.min.js">
+    </script>
+    <script src="./js/bootstrap/popper.min.js">
+    </script>
+    <script src="./js/bootstrap/bootstrap.min.js">
+    </script>
+    <script src="./js/swiperjs/swiper-bundle.min.js"></script>
+    <script src="./js/jquery-input-mask-phone-number.js"></script>
+    <script>
+        $(function () {
+            $('#yourphone').usPhoneFormat({
+                format: '(xxx) xxx-xxxx'
+            });
+        });
+        $(document).ready(function () {
+            $('input[type="text"]').on('keyup', function () {
+                v = parseInt($(this).val());
+                min = parseInt($(this).attr('min'));
+                max = parseInt($(this).attr('max'));
+
+                /*if (v < min){
+                    $(this).val(min);
+                } else */
+                if (v > max) {
+                    $(this).val(max);
+                }
+            })
+        })
+    </script>
+    <script src="./js/app/app.js"></script>
+</body>
+
+</html>
